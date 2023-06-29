@@ -1,0 +1,1296 @@
+html body {
+  scroll-behavior: smooth;
+  background-color: #f4f4f4;
+}
+
+html body .wrapper {
+  width: 68%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body button, html body input, html body select {
+  outline: none;
+  border: none;
+}
+
+html body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+html body p {
+  padding: 0;
+  margin: 0;
+}
+
+html body a {
+  text-decoration: none;
+}
+
+html body #app {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Livvic', sans-serif;
+  color: #00A5CF;
+}
+
+html body #app nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #app nav ul li {
+  margin: 0 8px;
+}
+
+html body #app nav ul li a {
+  color: #00A5CF;
+  padding: 4px;
+  font-size: 1.1rem;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app nav ul li a:hover {
+  color: #F46197;
+}
+
+html body #app hr.line {
+  width: 17%;
+  margin: 17px auto 25px auto;
+  opacity: 1;
+  background-color: #f4f4f4;
+  height: 3px;
+}
+
+html body #app h2 {
+  font-size: 2.7rem;
+}
+
+html body #app h3 {
+  font-size: 2.4rem;
+}
+
+html body #app header {
+  background-color: #f4f4f4;
+  padding: 30px 0 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #app header .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #app header .col:nth-of-type(1) {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+html body #app header .col:nth-of-type(2) {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+html body #app header .logout {
+  margin-left: 40px;
+  color: #f4f4f4;
+  background-color: #00A5CF;
+  padding: 4px 14px;
+  -webkit-box-shadow: 0 0 2px #00A5CF;
+          box-shadow: 0 0 2px #00A5CF;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border-radius: 3px;
+}
+
+html body #app header .logout:hover {
+  background-color: #f4f4f4;
+  color: #00A5CF;
+}
+
+html body #app main .banner {
+  position: relative;
+  width: 100%;
+  height: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #app main .banner .image {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+html body #app main .banner .layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+html body #app main .banner .text-content {
+  padding: 60px 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 78, 100, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  right: 14%;
+  position: absolute;
+  z-index: 10;
+}
+
+html body #app main .banner .text-content h1 {
+  font-size: 3.2rem;
+}
+
+html body #app main .banner .text-content h4 {
+  margin: 24px 0;
+  color: #F46197;
+  font-size: 1.4rem;
+}
+
+html body #app main .banner .text-content h6 {
+  margin: 24px 0;
+  font-size: 1.5rem;
+}
+
+html body #app main .banner .text-content a {
+  background-color: #F46197;
+  color: #f4f4f4;
+  border-radius: 4px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  padding: 5px 13px;
+  -webkit-box-shadow: 0 0 2px #F46197;
+          box-shadow: 0 0 2px #F46197;
+}
+
+html body #app main .banner .text-content a:hover {
+  background-color: #f4f4f4;
+  color: #F46197;
+}
+
+html body #app main .about-us {
+  margin-top: 50px;
+  position: relative;
+  color: #f4f4f4;
+  z-index: 5;
+  background-color: #00A5CF;
+  -webkit-box-shadow: 0 0 3px #00A5CF;
+          box-shadow: 0 0 3px #00A5CF;
+  padding: 120px 0;
+}
+
+html body #app main .about-us .content .one-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+}
+
+html body #app main .about-us .content .one-row:nth-of-type(1) {
+  margin-bottom: 80px;
+}
+
+html body #app main .about-us .content .one-row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #app main .about-us .content .one-row .col img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+html body #app main .about-us .content .one-row .col p {
+  max-width: 490px;
+  font-size: 1.15rem;
+  line-height: 1.69rem;
+  opacity: 1;
+}
+
+html body #app main .why-us {
+  width: 100%;
+  color: #F46197;
+  background-color: #f4f4f4;
+  padding: 100px 0;
+}
+
+html body #app main .why-us hr.line {
+  background-color: #F46197;
+  margin-bottom: 50px;
+}
+
+html body #app main .why-us .boxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+html body #app main .why-us .boxes .box {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 2px #F46197;
+          box-shadow: 0 0 2px #F46197;
+  border-radius: 15px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app main .why-us .boxes .box img {
+  width: 100%;
+}
+
+html body #app main .why-us .boxes .box .layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: rgba(244, 97, 151, 0.95);
+  -webkit-backdrop-filter: blur(22px);
+          backdrop-filter: blur(22px);
+  color: #f4f4f4;
+  position: absolute;
+  top: 0;
+  width: 101%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+html body #app main .why-us .boxes .box .layer h3 {
+  font-size: 1.6rem;
+}
+
+html body #app main .why-us .boxes .box:hover .layer {
+  opacity: .94;
+}
+
+html body #app main .shop {
+  background-color: #fff;
+  padding: 70px;
+  border-radius: 16px;
+  margin: 50px auto;
+  -webkit-box-shadow: 0 0 5px rgba(40, 40, 40, 0.3);
+          box-shadow: 0 0 5px rgba(40, 40, 40, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #app main .shop .shop-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+html body #app main .shop .shop-header h2 span {
+  color: #F46197;
+}
+
+html body #app main .shop .shop-header ::-webkit-input-placeholder {
+  color: #f4f4f4;
+  opacity: .9;
+}
+
+html body #app main .shop .shop-header :-ms-input-placeholder {
+  color: #f4f4f4;
+  opacity: .9;
+}
+
+html body #app main .shop .shop-header ::-ms-input-placeholder {
+  color: #f4f4f4;
+  opacity: .9;
+}
+
+html body #app main .shop .shop-header ::placeholder {
+  color: #f4f4f4;
+  opacity: .9;
+}
+
+html body #app main .shop .shop-header input {
+  font-size: 1.1rem;
+  background-color: #00A5CF;
+  color: #f4f4f4;
+  border-radius: 4px;
+  padding: 7px 17px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app main .shop .shop-header input:focus {
+  background-color: #F46197;
+}
+
+html body #app main .shop .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #app main .shop .pages button {
+  margin: 0 5px;
+  color: #f4f4f4;
+  background-color: #00A5CF;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1.04rem;
+}
+
+html body #app main .shop .pages button.active {
+  background-color: #F46197;
+  font-size: 1.2rem;
+  padding: 6px 12px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+html body #app main .shop .empty {
+  font-size: 2rem;
+  margin: 50px 0;
+  color: #F46197;
+}
+
+html body #app main .shop .products {
+  margin: 50px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  color: #f4f4f4;
+}
+
+html body #app main .shop .products article {
+  padding: 35px 25px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 6px;
+  background-color: #00A5CF;
+  -webkit-box-shadow: 0 0 3px #F46197;
+          box-shadow: 0 0 3px #F46197;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app main .shop .products article.onDiscaunt {
+  background-color: #F46197;
+  color: #f4f4f4;
+}
+
+html body #app main .shop .products article:hover {
+  background-color: transparent;
+  color: #F46197;
+}
+
+html body #app main .shop .products article:hover .discaunt {
+  color: #f4f4f4;
+  background-color: #00A5CF;
+}
+
+html body #app main .shop .products article img {
+  height: 210px;
+}
+
+html body #app main .shop .products article h4 {
+  font-size: 1.3rem;
+  margin: 20px 0 12px 0;
+}
+
+html body #app main .shop .products article h5 {
+  margin-bottom: 27px;
+  font-size: 1.4rem;
+}
+
+html body #app main .shop .products article del {
+  opacity: .75;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+html body #app main .shop .products article button {
+  background-color: #f4f4f4;
+  color: #F46197;
+  border-radius: 4px;
+  padding: 4px 14px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-box-shadow: 0 0 2px #F46197;
+          box-shadow: 0 0 2px #F46197;
+}
+
+html body #app main .shop .products article button:nth-of-type(2) {
+  margin-top: 14px;
+}
+
+html body #app main .shop .products article button:hover {
+  color: #f4f4f4;
+  background-color: #00A5CF;
+}
+
+html body #app main .shop .products article .discaunt {
+  position: absolute;
+  top: -4%;
+  left: -4%;
+  font-size: 1.4rem;
+  color: #f4f4f4 !important;
+  background-color: #00A5CF;
+  border-radius: 50%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+html body #app main .seeMore {
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 6px rgba(0, 78, 100, 0.2);
+          box-shadow: 0 0 6px rgba(0, 78, 100, 0.2);
+  background-color: #fff;
+  padding: 80px 40px;
+  margin: 60px auto;
+}
+
+html body #app main .seeMore .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #app main .seeMore .col img {
+  height: 500px;
+  max-width: 500px;
+  border-radius: 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app main .seeMore .col img:hover {
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+}
+
+html body #app main .cart {
+  margin: 70px 0;
+}
+
+html body #app main .cart hr.line {
+  background-color: #00A5CF;
+}
+
+html body #app main .cart .wrapper {
+  border-radius: 14px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 20px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 78, 100, 0.2);
+          box-shadow: 0 0 4px rgba(0, 78, 100, 0.2);
+}
+
+html body #app main .cart table {
+  margin: 80px 0;
+  width: 86%;
+}
+
+html body #app main .cart table tbody tr td img {
+  height: 100px;
+}
+
+html body #app main .cart table tbody tr td select {
+  background-color: #f4f4f4;
+  color: #F46197;
+  padding: 5px 14px;
+  border-radius: 4px;
+  font-size: 1rem;
+  -webkit-box-shadow: 0 0 2px #F46197;
+          box-shadow: 0 0 2px #F46197;
+}
+
+html body #app main .cart table tbody tr td button {
+  color: #F46197;
+  background-color: #f4f4f4;
+  padding: 4px 12px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px #F46197;
+          box-shadow: 0 0 2px #F46197;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app main .cart table tbody tr td button:hover {
+  background-color: #F46197;
+  color: #f4f4f4;
+}
+
+html body #app main .cart .total {
+  margin: 8px 0;
+  font-size: 1.4rem;
+}
+
+html body #app main .cart .total span {
+  color: #F46197;
+  font-size: 1.6rem;
+}
+
+html body #app main .cart button {
+  background-color: #F46197;
+  color: #f4f4f4;
+  -webkit-box-shadow: 0 0 3px #F46197;
+          box-shadow: 0 0 3px #F46197;
+  padding: 6px 15px;
+  border-radius: 7px;
+  font-size: 1.12rem;
+  margin: 40px 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app main .cart button:hover {
+  background-color: #f4f4f4;
+  color: #F46197;
+}
+
+html body #app main .cart .empty {
+  color: #F46197;
+}
+
+html body #app main .author {
+  background-color: #fff;
+  margin: 70px auto;
+  padding: 100px 0;
+  -webkit-box-shadow: 2px 2px 10px rgba(20, 20, 20, 0.4);
+          box-shadow: 2px 2px 10px rgba(20, 20, 20, 0.4);
+  border-radius: 12px;
+}
+
+html body #app main .author .col img {
+  height: 400px;
+  border-radius: 10px;
+}
+
+html body #app main .author .col h3 {
+  margin-bottom: 40px;
+  color: #F46197;
+}
+
+html body #app main .author .col p {
+  font-size: 1.1rem;
+  opacity: .9;
+  line-height: 1.7rem;
+}
+
+html body #app main .orders {
+  margin-top: 40px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #app main .orders article {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+html body #app main .orders article header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F46197;
+  border-bottom: 7px solid #f4f4f4;
+  color: #f4f4f4;
+  padding: 32px 35px;
+  width: 100%;
+}
+
+html body #app main .orders article header h4 {
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+html body #app main .orders article header p {
+  font-size: 1.3rem;
+}
+
+html body #app main .orders article main {
+  width: 100%;
+}
+
+html body #app main .orders article main div {
+  height: 100%;
+  width: 100%;
+}
+
+html body #app main .orders article main div table {
+  border-radius: 0;
+  margin: 0;
+  width: 100%;
+}
+
+html body #app main .orders article main div table td {
+  font-size: 1.1rem;
+}
+
+html body #app main .orders article main div table img {
+  height: 77px;
+}
+
+html body #app main .orders article footer {
+  background-color: #00A5CF;
+  padding: 30px 0;
+  border-radius: 0;
+  color: #f4f4f4;
+  border-top: 7px solid #f4f4f4;
+}
+
+html body #app main .login hr.line, html body #app main .signUp hr.line {
+  background-color: #00A5CF;
+  margin-bottom: 40px;
+}
+
+html body #app main .admin {
+  margin: 50px auto;
+  padding: 50px 0 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 5px rgba(20, 20, 20, 0.4);
+          box-shadow: 0 0 5px rgba(20, 20, 20, 0.4);
+}
+
+html body #app main .admin a {
+  background-color: #F46197;
+  color: #f4f4f4;
+  border-radius: 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  padding: 4px 14px;
+  margin: 20px 0;
+  -webkit-box-shadow: 0 0 2px #F46197;
+          box-shadow: 0 0 2px #F46197;
+  font-size: 1.14rem;
+}
+
+html body #app main .admin a:hover {
+  background-color: #f4f4f4;
+  color: #F46197;
+}
+
+html body #app main .admin hr.line {
+  background-color: #00A5CF;
+}
+
+html body #app main .admin table {
+  width: 80%;
+  margin-top: 50px;
+}
+
+html body #app main .admin table img {
+  height: 90px;
+}
+
+html body #app main .admin table tr:hover button {
+  background-color: #00A5CF;
+  color: #f4f4f4;
+}
+
+html body #app main .admin table tr:hover button.removeBtn {
+  background-color: #F46197;
+}
+
+html body #app main .admin table button {
+  background-color: #f4f4f4;
+  color: #00A5CF;
+  -webkit-box-shadow: 0 0 2px #00A5CF;
+          box-shadow: 0 0 2px #00A5CF;
+  padding: 4px 12px;
+  border-radius: 7px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  font-size: 1.6rem;
+}
+
+html body #app main .admin table button.removeBtn {
+  background-color: #f4f4f4;
+  color: #F46197;
+}
+
+html body #app footer {
+  padding: 80px 0;
+  border-radius: 70px  0 0 0;
+  background-color: rgba(244, 97, 151, 0.1);
+}
+
+html body #app footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #app footer .wrapper hr.line {
+  background-color: #F46197;
+  width: 80%;
+  height: 2px;
+}
+
+html body #app footer .wrapper h5 {
+  color: #F46197;
+}
+
+html body #app footer .wrapper .row {
+  margin: 20px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body #app footer .wrapper .row .col nav ul li {
+  margin: 2px 6px;
+}
+
+html body #app footer .wrapper .row .col nav ul li a {
+  font-size: 1.09rem;
+}
+
+html body #app footer .wrapper .row .col.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #app footer .wrapper .row .col.logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00A5CF;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app footer .wrapper .row .col.logo a:hover {
+  color: #F46197;
+}
+
+html body #app .tableLayout {
+  width: 80%;
+  border-radius: 10px;
+  background-color: #00A5CF;
+  color: #f4f4f4;
+}
+
+html body #app .tableLayout td, html body #app .tableLayout th {
+  padding: 20px 35px;
+  text-align: center;
+}
+
+html body #app .tableLayout th {
+  font-size: 1.2rem;
+}
+
+html body #app .tableLayout td {
+  font-size: 1.1rem;
+}
+
+html body #app .tableLayout tbody tr {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app .tableLayout tbody tr:nth-of-type(odd) {
+  background-color: #F46197;
+}
+
+html body #app .tableLayout tbody tr:hover {
+  background-color: #f4f4f4;
+  color: #00A5CF;
+}
+
+html body #app .formLayout {
+  width: 50%;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 6px rgba(0, 78, 100, 0.2);
+          box-shadow: 0 0 6px rgba(0, 78, 100, 0.2);
+  background-color: #fff;
+  padding: 80px 40px;
+  margin: 60px auto;
+}
+
+html body #app .formLayout .field {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body #app .formLayout span {
+  width: 100%;
+}
+
+html body #app .formLayout span.alert {
+  width: 86%;
+}
+
+html body #app .formLayout .err, html body #app .formLayout .hint {
+  padding: 10px 14px;
+  width: 86%;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f4f4f4;
+}
+
+html body #app .formLayout .err {
+  background-color: #F46197;
+}
+
+html body #app .formLayout .hint {
+  background-color: transparent;
+  color: #00A5CF;
+}
+
+html body #app .formLayout .input-field {
+  margin: 23px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 86%;
+}
+
+html body #app .formLayout .input-field label {
+  padding: 0 14px;
+  position: absolute;
+  color: #f4f4f4;
+  font-size: 1rem;
+  background-color: #00A5CF;
+  cursor: text;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border-radius: 8px;
+}
+
+html body #app .formLayout .input-field label.goUp {
+  -webkit-transform: translateY(-90%);
+          transform: translateY(-90%);
+  border-radius: 8px 8px 0 0;
+}
+
+html body #app .formLayout .input-field input {
+  color: #f4f4f4;
+  background-color: #00A5CF;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1.14rem;
+  width: 100%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+html body #app .formLayout .input-field input:focus {
+  border-radius: 0 8px 8px 8px;
+}
+
+html body #app .formLayout .input-field input[type="submit"]:hover {
+  background-color: #F46197;
+}
+
+html body #app .popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(40, 40, 40, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1000;
+}
+
+html body #app .popup .content {
+  width: 650px;
+  height: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #00A5CF;
+  color: #f4f4f4;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+html body #app .popup .content h3 {
+  font-size: 1.78rem;
+  font-weight: 400;
+}
+
+html body #app .popup .content button {
+  position: absolute;
+  z-index: 20;
+  right: 4%;
+  top: 5%;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  font-size: 1.3rem;
+  color: #F46197;
+}
+
+html body #app .toTop {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+  color: #f4f4f4;
+  width: 75px;
+  height: 75px;
+  bottom: 4%;
+  right: 2%;
+}
+
+html body #app .toTop button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #00A5CF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  color: #f4f4f4;
+  font-size: 2.4rem;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-box-shadow: 0 0 2px #00A5CF;
+          box-shadow: 0 0 2px #00A5CF;
+}
+
+html body #app .toTop button:hover {
+  background-color: #f4f4f4;
+  color: #00A5CF;
+}
+
+html body #app .toTop button i:nth-of-type(1) {
+  -webkit-transform: translateY(9px);
+          transform: translateY(9px);
+}
+
+html body #app .toTop button i:nth-of-type(2) {
+  -webkit-transform: translateY(-9px);
+          transform: translateY(-9px);
+}
+/*# sourceMappingURL=style.css.map */
